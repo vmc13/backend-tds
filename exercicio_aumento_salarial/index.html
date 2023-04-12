@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stye.css">
+    <title>Ajuste salarial</title>
+</head>
+
+<body>
+    <main>
+        <img src="assets/tabajaras.jpg" alt="Logo Organizações Tabajara" width="300">
+        <div class="form">
+            <label for="salario">Informe o salário atual: <input type="number" name="salario" id="salario"></label>
+            <button type="submit" onclick="reajusteSalarial()">Reajustar</button>
+
+            <div class="saidas">
+                <div class="output">
+                    Salário antes do reajuste: <div class="labelOut" id="antesReajuste"></div>
+                </div>
+                <div class="output">
+                    Percentual de aumento aplicado: <div class="labelOut" id="percentualAumento"></div>
+                </div>
+                <div class="output">
+                    Valor do aumento <div class="labelOut"  id="valorAumento"></div>
+                </div>
+                <div class="output">
+                    Novo salário, após o aumento: <div class="labelOut"  id="novoSalario"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>

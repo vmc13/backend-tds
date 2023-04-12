@@ -1,0 +1,14 @@
+body{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.output {
+    display: flex;
+    margin-top: 8px;
+}
+
+.labelOut {
+    margin-left: 5px;
+    font-weight: 600;
+}
